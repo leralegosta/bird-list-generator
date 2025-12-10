@@ -79,7 +79,7 @@ button:hover {
   background-color: #444;
 }
 
-/* ✅ AUTOCOMPLETE CONTAINER */
+/* autocomplete container */
 .autocomplete {
   background-color: white;
   border: 1px solid #ccc;
@@ -91,7 +91,7 @@ button:hover {
   text-align: left;
 }
 
-/* ✅ AUTOCOMPLETE "BUTTONS" */
+/* autocomplete buttons */
 .autocomplete div {
   padding: 12px;
   cursor: pointer;
@@ -132,4 +132,51 @@ li {
   .App {
     width: 92%;
   }
+}
+
+.bird-dropdown {
+  margin-top: 10px;
+  text-align: center;
+  animation: fadeIn 0.3s ease;
+}
+
+.bird-dropdown img {
+  width: 100%;
+  max-width: 260px;
+  border-radius: 10px;
+  margin-top: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.image-error {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #fff3f3;
+  border: 1px solid #e0b4b4;
+  border-radius: 8px;
+  color: #8a1f1f;
+  font-weight: bold;
+}
+
+.image-error a {
+  display: inline-block;
+  margin-top: 6px;
+  color: #a0594e;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.image-error a:hover {
+  color: #77372d;
 }

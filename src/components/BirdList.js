@@ -1,12 +1,11 @@
 import React from 'react';
+import BirdItem from './BirdItem';
 
 function BirdList({ birds }) {
   return (
     <ul>
       {birds.map((bird, index) => (
-        <li key={index}>
-          {bird.comName} ({bird.sciName}) - {bird.howMany ? `${bird.howMany} observed` : 'No count provided'}
-        </li>
+        <BirdItem key={index} bird={bird} />
       ))}
     </ul>
   );
