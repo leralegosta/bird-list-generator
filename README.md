@@ -1,3 +1,24 @@
+# Bird List Generator
+
+## Description
+
+This app will generate real-time bird sighting lists for any country, state, or region using the eBird API.
+Enter a country and generate listings for that country, or enter the region/state and its subregion/country, for example United States, New York, Albany. 
+
+The list of bird sightings is sorted from most sighted to least sighted. 
+
+Clicking a card with the bird name and number of sightings will reveal the image of the bird. 
+
+This app can be a handy tool for birdwatchers who are interested in the number of sightings in their area!
+
+<img width="965" height="862" alt="image" src="https://github.com/user-attachments/assets/fc5d5463-1295-44e5-9856-114346294530" />
+
+
+(Uses the eBird API)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
