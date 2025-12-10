@@ -8,6 +8,6 @@ function BirdItem({ bird }) {
       <p>{bird.description}</p>
     </li>
   );
-} // test comment
+} // test
 
 export default BirdItem;
